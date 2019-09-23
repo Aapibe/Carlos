@@ -1,0 +1,24 @@
+Algoritmo "semnome"
+// Autor(a)    : Carlos
+// Data atual  : 23/09/2019
+Var
+// Seção de Declarações das variáveis 
+      x, rad:real
+       n, xl: caracter
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+
+ repita
+ limpatela
+escreval("digite o ângulo em graus:")
+leia (x)
+rad <- ( x * pi )/ 180
+escreval("o ângulo", x," em radianos é:", rad)
+Escreva (">>aperte [enter] para continuar")
+leia (xl)
+limpatela
+escreva ("deseja calcular o valor de outro ângulo? (s/n)")
+leia (n)
+até (n = "n")
+fimalgoritmo
